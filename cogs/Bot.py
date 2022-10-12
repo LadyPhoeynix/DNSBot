@@ -13,7 +13,7 @@ from discord.ext.commands import AutoShardedBot, when_mentioned
 
 from discord.ext.commands import Context
 
-from config import load_config
+from cogs.config import load_config
 
 intents = discord.Intents.default()
 intents.members = False
